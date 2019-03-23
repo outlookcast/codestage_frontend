@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { LoginComponent } from './login/login.component';
+import { ExplorarComponent } from './explorar/explorar.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/home' },
@@ -25,7 +26,8 @@ const routes: Routes = [
     HomeComponent,
     AboutComponent,
     CadastroComponent,
-    LoginComponent
+    LoginComponent,
+    ExplorarComponent
   ],
   imports: [
     BrowserModule,
