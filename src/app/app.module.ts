@@ -19,7 +19,8 @@ const routes: Routes = [
   { path: 'cadastro', component: CadastroComponent },
   { path: 'login', component: LoginComponent },
   { path: 'patrocine-soft-butch', component: PatrocineSoftButchComponent},
-  { path: 'soft-butch', component: SoftBunchComponent}
+  { path: 'soft-butch', component: SoftBunchComponent},
+  { path: 'explorar', component: ExplorarComponent}
 ];
 
 
